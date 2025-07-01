@@ -107,7 +107,7 @@ function renderProductos(productos) {
                     </div>
                 </div>
             </div>
-        `;
+        ;
         gridProductos.innerHTML += productoHTML;
     });
 
@@ -136,7 +136,7 @@ function renderOfertas(ofertas) {
                 </div>
                 <button class="btn-agregar" data-id="${oferta.id}" style="margin-top: 15px;">Agregar</button>
             </div>
-        `;
+        ;
         sliderOfertas.innerHTML += ofertaHTML;
     });
 
@@ -240,7 +240,7 @@ function renderCarrito() {
                     <button class="btn-eliminar"><i class="fas fa-trash"></i></button>
                 </div>
             </div>
-        `;
+        ;
         itemsCarrito.innerHTML += itemHTML;
     });
     
@@ -357,5 +357,5 @@ estiloNotificacion.textContent = `
     .notificacion.mostrar {
         opacity: 1;
     }
-`;
+;
 document.head.appendChild(estiloNotificacion);
